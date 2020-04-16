@@ -4,9 +4,20 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
-    <router-view/>
+    <router-view />
+    <test></test>
   </div>
 </template>
+
+<script>
+import test from './components/test'
+export default {
+  name: 'App',
+  components: {
+    test
+  }
+}
+</script>
 
 <style lang="scss">
 #app {
