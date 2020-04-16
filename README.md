@@ -22,3 +22,7 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### vuecli3.0脚手架改造
+1. cssModule
+2. px2rem
