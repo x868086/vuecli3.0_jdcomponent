@@ -63,7 +63,7 @@
       designWidth = parseInt(hotcss.designWidth, 10)
     }
 
-    return (parseInt(px, 10) * 320) / designWidth / 20
+    return (parseInt(px, 10) * 375) / designWidth / 20
   }
 
   hotcss.rem2px = function (rem, designWidth) {
@@ -72,7 +72,7 @@
       designWidth = parseInt(hotcss.designWidth, 10)
     }
     // rem可能为小数，这里不再做处理了
-    return (rem * 20 * designWidth) / 320
+    return (rem * 20 * designWidth) / 375
   }
 
   hotcss.mresize = function () {
@@ -89,7 +89,7 @@
       return false
     }
 
-    document.documentElement.style.fontSize = `${(innerWidth * 20) / 320}px`
+    document.documentElement.style.fontSize = `${(innerWidth * 20) / 375}px`
     hotcss.callback && hotcss.callback()
   }
 
