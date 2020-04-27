@@ -10,7 +10,7 @@ module.exports = {
       .use('px2rem-loader')
       .loader('px2rem-loader')
       .before('postcss-loader') // this makes it work.
-      .options({ remUnit: 37.5, remPrecision: 8 })
+      .options({ remUnit: 40, remPrecision: 8 })
       .end()
 
     // 转换vue文件中，style标签内cssModule模块中的css代码 px2rem
@@ -20,7 +20,7 @@ module.exports = {
       .use('px2rem-loader')
       .loader('px2rem-loader')
       .before('postcss-loader') // this makes it work.
-      .options({ remUnit: 37.5, remPrecision: 8 })
+      .options({ remUnit: 40, remPrecision: 8 })
       .end()
 
     // 转换css文件中的css代码 px2rem
@@ -30,7 +30,7 @@ module.exports = {
       .use('px2rem-loader')
       .loader('px2rem-loader')
       .before('postcss-loader') // this makes it work.
-      .options({ remUnit: 37.5, remPrecision: 8 })
+      .options({ remUnit: 40, remPrecision: 8 })
       .end()
 
     // 转换css文件中，cssModule模块中的css代码 px2rem
@@ -40,7 +40,7 @@ module.exports = {
       .use('px2rem-loader')
       .loader('px2rem-loader')
       .before('postcss-loader') // this makes it work.
-      .options({ remUnit: 37.5, remPrecision: 8 })
+      .options({ remUnit: 40, remPrecision: 8 })
       .end()
 
     // 转换vue文件中，style标签内的scss代码 px2rem
@@ -50,7 +50,7 @@ module.exports = {
       .use('px2rem-loader')
       .loader('px2rem-loader')
       .before('postcss-loader') // this makes it work.
-      .options({ remUnit: 37.5, remPrecision: 8 })
+      .options({ remUnit: 40, remPrecision: 8 })
       .end()
 
     // 转换vue文件中，style标签内cssModule模块中的scss代码 px2rem
@@ -60,7 +60,7 @@ module.exports = {
       .use('px2rem-loader')
       .loader('px2rem-loader')
       .before('postcss-loader') // this makes it work.
-      .options({ remUnit: 37.5, remPrecision: 8 })
+      .options({ remUnit: 40, remPrecision: 8 })
       .end()
 
     // 转换scss文件中的scss代码 px2rem
@@ -70,7 +70,7 @@ module.exports = {
       .use('px2rem-loader')
       .loader('px2rem-loader')
       .before('postcss-loader') // this makes it work.
-      .options({ remUnit: 37.5, remPrecision: 8 })
+      .options({ remUnit: 40, remPrecision: 8 })
       .end()
 
     // 转换scss文件中，cssModule模块中的scss代码 px2rem
@@ -80,7 +80,7 @@ module.exports = {
       .use('px2rem-loader')
       .loader('px2rem-loader')
       .before('postcss-loader') // this makes it work.
-      .options({ remUnit: 37.5, remPrecision: 8 })
+      .options({ remUnit: 40, remPrecision: 8 })
       .end()
   }
 }

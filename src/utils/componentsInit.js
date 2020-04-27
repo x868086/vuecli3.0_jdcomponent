@@ -1,7 +1,11 @@
-import btn from '../components/btn.vue'
-import panel from '../components/panel.vue'
+import Btn from '../components/btn.vue'
+import Panel from '../components/panel.vue'
+import Slider from '../components/slider.vue'
+import Heador from '../layout/header.vue'
 
 export default (Vue) => {
-  Vue.component(btn.name, btn)
-  Vue.component(panel.name, panel)
+  Vue.component(Btn.name, Btn)
+  Vue.component(Panel.name, Panel)
+  Vue.component(Slider.name, Slider)
+  Vue.component(Heador.name, Heador)
 }

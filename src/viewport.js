@@ -1,4 +1,4 @@
-/* eslint-disable no-useless-escape */
+/* eslint-disable */ 
 (function (window, document) {
   // 给hotcss开辟个命名空间，别问我为什么，我要给你准备你会用到的方法，免得用到的时候还要自己写。
   const hotcss = {};
@@ -9,7 +9,7 @@
     const hotcssEl = document.querySelector('meta[name="hotcss"]')
     let dpr = window.devicePixelRatio || 1
     let maxWidth = 540
-    let designWidth = 0
+    let designWidth = 640
 
     dpr = dpr >= 3 ? 3 : dpr >= 2 ? 2 : 1
 
@@ -63,7 +63,7 @@
       designWidth = parseInt(hotcss.designWidth, 10)
     }
 
-    return (parseInt(px, 10) * 375) / designWidth / 20
+    return (parseInt(px, 10) * 320) / designWidth / 20
   }
 
   hotcss.rem2px = function (rem, designWidth) {
@@ -72,7 +72,7 @@
       designWidth = parseInt(hotcss.designWidth, 10)
     }
     // rem可能为小数，这里不再做处理了
-    return (rem * 20 * designWidth) / 375
+    return (rem * 20 * designWidth) / 320
   }
 
   hotcss.mresize = function () {
@@ -89,7 +89,7 @@
       return false
     }
 
-    document.documentElement.style.fontSize = `${(innerWidth * 20) / 375}px`
+    document.documentElement.style.fontSize = `${(innerWidth * 20) / 320}px`
     hotcss.callback && hotcss.callback()
   }
 

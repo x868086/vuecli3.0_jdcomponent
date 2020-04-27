@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <btn>abcde</btn>
-    <panel title="金融"></panel>
+    <router-view></router-view>
+    <!-- SPA页面路由的起始渲染出口 -->
   </div>
 </template>
 
