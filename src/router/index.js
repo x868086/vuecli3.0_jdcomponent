@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/home/index.vue'
+import Money from '../views/money/index.vue'
+import Ious from '../views/ious/index.vue'
+import Raise from '../views/raise/index.vue'
 
 Vue.use(VueRouter)
 
@@ -9,6 +12,21 @@ const routes = [
     path: '/',
     name: 'home',
     component: Home
+  },
+  {
+    path: '/money',
+    name: 'money',
+    component: Money
+  },
+  {
+    path: '/ious',
+    name: 'ious',
+    component: Ious
+  },
+  {
+    path: '/raise',
+    name: 'raise',
+    component: Raise
   }
 ]
 

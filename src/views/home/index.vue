@@ -7,6 +7,8 @@
     <money></money>
     <product></product>
     <Life></Life>
+    <foot></foot>
+    <navbar></navbar>
   </div>
 </template>
 
