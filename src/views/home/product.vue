@@ -63,6 +63,7 @@ export default {
 </style>
 
 <style lang="scss">
+// 第三方ui库的样式类名className 无法在使用cssModule后正常拿到，所以这里单独写css样式，不使用cssModule
   .product-slider {
     width:100%;
     .swiper-container {

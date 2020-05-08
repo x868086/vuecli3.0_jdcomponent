@@ -77,7 +77,7 @@ export default {
         border-top: 1px solid #ddd;
       }
     }
-
+    margin-bottom:100px;
   }
 }
 </style>

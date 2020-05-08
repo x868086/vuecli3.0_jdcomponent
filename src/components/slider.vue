@@ -30,6 +30,7 @@ export default {
     },
     options: {
       type: Object,
+      // 默认props值为对象时需要用return 返回
       default () {
         return {
           autoplay: true,
